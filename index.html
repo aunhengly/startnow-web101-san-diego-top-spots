@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>San Diego Top Spots</title>
+    <style>
+        #map{
+            
+            width: 100%;
+            height: 450px;
+            background-color: grey;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>San Diego Top Spots</h1>
+    <h2>Hengly Google Maps</h2>
+    <div id="map"></div>
+
+    <table id="top-spots" border="1">
+        <thead>
+            <tr>
+                <th class="tablehead" width="20%">Name</th>
+                <th class="tablehead" width="45%">Description</th>
+                <th class="tablehead" width="20%">Link to the map</th>
+            </tr>
+        </thead>
+        <tbody align="left">
+         <!-- here's where your rows will go    -->
+        </tbody>
+    </table>
+
+    <!-- Don't forget to add your <script> tag here -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5pn72S_0ri0XsWq3TGn6koj5do9VN4c4&callback=initMap">
+      </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+    <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
